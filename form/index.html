@@ -1,0 +1,220 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <h2 class="header-title">Contact Us</h2>
+      <p class="header-content">
+        Any question or remark? Just write us a message!
+      </p>
+    </header>
+    <!-- end header -->
+    <main class="contact">
+      <div class="contact-info">
+        <div class="contact-info-header">
+          <h3 class="info-header">Contact Information</h3>
+          <p class="info-content">
+            Fill up the form and our team will get back to you within 24 hours.
+          </p>
+        </div>
+        <!-- end contact info header -->
+        <div class="contact-info-details">
+          <div class="info-item info-item--1">
+            <i class="fas fa-phone-alt info-item-icon"></i>
+            <p class="info-item-text">+0123 4587 8910</p>
+          </div>
+          <div class="info-item info-item--2">
+            <i class="fas fa-envelope info-item-icon"></i>
+            <p class="info-item-text">datpham123335@gmail.com</p>
+          </div>
+          <div class="info-item info-item--3">
+            <i class="fas fa-map-marker-alt info-item-icon"></i>
+            <p class="info-item-text">Thach That, FPT University</p>
+          </div>
+        </div>
+        <!-- end contact info details -->
+        <div class="contact-info-social">
+          <ul class="info-social">
+            <li class="info-social-item info-social-item--1">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="info-social-item info-social-item--2">
+              <a href="https://is.gd/ifMQR2" target="__blank">
+                <i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="info-social-item info-social-item--3">
+                <a href="#"> <i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="info-social-item info-social-item--4">
+              <a href="https://is.gd/FFma4N" target="__blank">
+                <i class="fab fa-github"></i
+                ></a>
+              </li>
+            </ul>
+            <!-- end info social -->
+          </div>
+          <!-- end contact info social -->
+        </div>
+        <!--2.1.  end contact info -->
+        <div class="contact-form-container">
+          <form
+            action="javascript:void(0)"
+            class="contact-form"
+            autocomplete="off"
+          >
+            <div class="contact-form-group contact-form-group--1">
+              <div class="contact-form-bigsubgroup contact-form-bigsubgroup--1">
+                <div class="contact-form-subgroup contact-form-subgroup--1">
+                  <label for="fname" class="contact-form-label"
+                    >First Name</label
+                  >
+                  <input
+                    id="fname"
+                    type="text"
+                    placeholder="Dat"
+                    pattern="[a-zA-Z ]+"
+                    class="contact-form-input"
+                  />
+                </div>
+                <!-- end subgroup1 -->
+                <div class="contact-form-subgroup contact-form-subgroup--2">
+                  <label for="lname" class="contact-form-label"
+                    >Last Name</label
+                  >
+                  <input
+                    id="lname"
+                    type="text"
+                    placeholder="Pham"
+                    pattern="[a-zA-Z ]+"
+                    class="contact-form-input"
+                  />
+                </div>
+                <!-- end subgroup2 -->
+              </div>
+              <!-- end big subgroup 1 -->
+              <div class="contact-form-bigsubgroup contact-form-bigsubgroup--2">
+                <div class="contact-form-subgroup contact-form-subgroup--3">
+                  <label for="mail" class="contact-form-label">Mail</label>
+                  <input
+                    id="mail"
+                    type="text"
+                    placeholder="dp@gmail.com"
+                    class="contact-form-input"
+                  />
+                </div>
+                <!-- end subgroup3 -->
+                <div class="contact-form-subgroup contact-form-subgroup--4">
+                  <label for="phone" class="contact-form-label">Phone</label>
+                  <input
+                    id="phone"
+                    type="text"
+                    placeholder="012 34 567"
+                    pattern="[0-9]{3} [0-9]{2} [0-9]{3}"
+                    class="contact-form-input"
+                  />
+                </div>
+                <!-- end subgroup4 -->
+              </div>
+              <!-- end big subgroup2 -->
+            </div>
+            <!-- end form group 1 -->
+            <div class="contact-form-group contact-form-group--2">
+              <label class="contact-form-label"
+                >What type of the website do you need?</label
+              >
+              <div class="contact-form-radio">
+                <div class="contact-form-biggroup contact-form-biggroup--3">
+                  <div class="radio-item radio-item--1">
+                    <input
+                      type="radio"
+                      name="web-choose"
+                      id="web-choose1"
+                      class="contact-form-input"
+                    />
+                    <label class="contact-form-label-radio" for="web-choose1"
+                      >Web design</label
+                    >
+                  </div>
+                  <div class="radio-item radio-item--2">
+                    <input
+                      type="radio"
+                      name="web-choose"
+                      id="web-choose2"
+                      class="contact-form-input"
+                    />
+                    <label class="contact-form-label-radio" for="web-choose2"
+                      >Development</label
+                    >
+                  </div>
+                </div>
+                <!-- end contact form biggroup 3 -->
+                <div class="contact-form-biggroup contact-form-biggroup--4">
+                  <div class="radio-item radio-item--3">
+                    <input
+                      type="radio"
+                      name="web-choose"
+                      id="web-choose3"
+                      class="contact-form-input"
+                    />
+                    <label class="contact-form-label-radio" for="web-choose3"
+                      >Logo design</label
+                    >
+                  </div>
+                  <div class="radio-item radio-item--4">
+                    <input
+                      type="radio"
+                      name="web-choose"
+                      id="web-choose4"
+                      class="contact-form-input"
+                    />
+                    <label class="contact-form-label-radio" for="web-choose4"
+                      >Other</label
+                    >
+                  </div>
+                </div>
+                <!-- end contact bigform group4 -->
+              </div>
+              <!-- end contact form radio container-->
+            </div>
+            <!-- end form group 2 -->
+            <div class="contact-form-group contact-form-group--3">
+              <label
+                for="contact-form-textarea-label"
+                class="contact-form-label"
+                >Message</label
+              >
+              <textarea
+                class="contact-form-textarea"
+                placeholder="Write your message.."
+                id="contact-form-textarea-label"
+              ></textarea>
+            </div>
+            <!-- end form group 3 -->
+            <div class="contact-form-group contact-form-group--4">
+              <button type="submit" class="contact-form-btn">
+                Send Message
+              </button>
+            </div>
+          </form>
+          <!-- end form -->
+        </div>
+        <!-- 2.2. end contact form -->
+      </main>
+      <!-- end main -->
+    </div>
+    <!-- end container -->
+  </body>
+</html>

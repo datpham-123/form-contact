@@ -1,0 +1,73 @@
+/** @format */
+
+.container {
+  // general layout
+  .header {
+    height: 25%;
+    // border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  // main-layout: 60%
+  .contact {
+    background-color: #fff;
+    width: 100%;
+    height: 65%;
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    display: flex;
+    // border: 1px solid black;
+    // left main: contact info
+    &-info {
+      // border: 1px solid black;
+      flex-basis: 37%;
+    }
+    // right main: contact form container
+    &-form-container {
+      // border: 1px solid black;
+      flex-basis: 73%;
+      padding: 1.5rem;
+      // contact form inside
+      .contact-form {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1.5rem 2rem;
+        // 4 contact form group inside
+        &-group--1 {
+          flex-basis: 40%;
+          .contact-form-bigsubgroup {
+            display: flex;
+            .contact-form-subgroup {
+              flex-basis: calc(50% - 2.25rem);
+            }
+            .contact-form-subgroup--2 {
+              margin-left: 4.5rem;
+            }
+            .contact-form-subgroup--4 {
+              margin-left: 4.5rem;
+            }
+          }
+          // end big subgroup1
+          .contact-form-bigsubgroup--1 {
+            margin-bottom: 2.5rem;
+          }
+          // end big subgroup2
+        }
+        &-group--2 {
+          flex-basis: 20%;
+          margin-top: 2.2rem;
+        }
+        &-group--3 {
+          flex-basis: 20%;
+        }
+        &-group--4 {
+          flex-basis: 20%;
+        }
+      }
+    }
+  }
+}

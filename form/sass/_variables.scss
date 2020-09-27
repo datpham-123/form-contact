@@ -1,0 +1,25 @@
+/** @format */
+
+// font
+$font-roboto: 'Roboto',
+sans-serif;
+$font-montserrat: 'Montserrat',
+sans-serif;
+$font-size-default: 1.6rem;
+$font-lineheight-default: 1.4;
+// color-container
+$container-color: rgb(249, 249, 251);
+// color-header
+$header-title-color: rgb(2, 4, 74);
+$header-content-color: rgb(144, 145, 176);
+//  color-contact-infor(main: left)
+$contact-info-background: rgb(62, 32, 147);
+$contact-info-header: #ffffff;
+$contact-info-text: rgb(211, 209, 242);
+$contact-info-secondary: rgb(250, 148, 157);
+// color contact-form (main: right)
+// form-group1 -> label
+$contact-form-group-label-hover: rgb(131, 133, 167);
+$border-focus-color: hsl(255, 74, 59);
+// form-group4 -btn
+$btn-background-color: hsl(255, 64, 35);

@@ -1,0 +1,97 @@
+/** @format */
+
+.contact-form {
+  &-group--1,
+  &-group--3 {
+    .contact-form-label {
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+  // subgroup inside contact-form-group
+  &-subgroup {
+    .contact-form-label {
+      font-size: 1.3rem;
+    }
+    .contact-form-input {
+      width: 100%;
+      padding-top: 0.5rem;
+      padding-bottom: 1.5rem;
+      border-left: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom-color: #ccccd8;
+      transition: 0.25s;
+      &::-webkit-input-placeholder {
+        font-size: 1.5rem;
+        color: $contact-form-group-label-hover;
+        background-color: $container-color;
+        background-color: #fff;
+      }
+      &:focus {
+        border-bottom-color: $border-focus-color;
+      }
+    }
+  }
+  // contact form group 2
+  &-group--2 {
+    .contact-form-label {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    .contact-form-radio {
+      margin-top: 2.2rem;
+      margin-bottom: 2.2rem;
+      display: flex;
+      .radio-item {
+        width: calc(25% - 1.5rem);
+        .contact-form-label {
+          cursor: pointer;
+        }
+      }
+      .radio-item--2,
+      .radio-item--3,
+      .radio-item--4 {
+        margin-left: 2rem;
+      }
+    }
+  }
+  // contact form group 3
+  &-group--3 {
+    .contact-form-label {
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+    .contact-form-textarea {
+      width: 100%;
+      margin-top: 0.5rem;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      border-bottom-color: #ccccd8;
+      transition: 0.25s;
+      &::-webkit-input-placeholder {
+        font-size: 1.3rem;
+        color: $contact-form-group-label-hover;
+        background-color: $container-color;
+        background-color: #fff;
+      }
+      &:focus {
+        border-bottom-color: $border-focus-color;
+      }
+    }
+  }
+  // contact form group 4
+  &-group--4 {
+    display: flex;
+    justify-content: flex-end;
+    .contact-form-btn {
+      margin: 2.7rem;
+      padding: 1.6rem 2.5rem;
+      border-radius: 0.5rem;
+      font-size: 1.3rem;
+      color: #fff;
+      background-color: $btn-background-color;
+    }
+  }
+}

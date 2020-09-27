@@ -1,0 +1,15 @@
+/** @format */
+
+.header {
+  &-title {
+    color: $header-title-color;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: $font-montserrat;
+    transform: scaleY(1.1);
+  }
+  &-content {
+    color: $header-content-color;
+    margin-top: 1.2rem;
+  }
+}
